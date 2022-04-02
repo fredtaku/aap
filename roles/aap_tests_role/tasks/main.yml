@@ -1,0 +1,5 @@
+---
+# tasks file for aap_tests-role
+- name: my first debug message task
+  debug: msg="This is my first message from the app project"
+
