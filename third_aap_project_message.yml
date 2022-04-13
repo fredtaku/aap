@@ -1,0 +1,10 @@
+- hosts: localhost
+  become: True
+  gather_facts: True
+  tasks:
+
+    - name: include the aap test role 
+      include_role: 
+              name: aap_tests_role
+              tasks_from: third.yml
+

@@ -1,0 +1,5 @@
+---
+# tasks file for aap_tests-role
+- name: my fourth debug message task
+  debug: msg="This is my fourth message from the aap project"
+
