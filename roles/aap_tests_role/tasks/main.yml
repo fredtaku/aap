@@ -3,3 +3,6 @@
 - name: my first debug message task
   debug: msg="This is my first message from the aap project"
 
+- name: DEBUG  a variable
+  debug: msg="{{dbug_msg1}}"
+
